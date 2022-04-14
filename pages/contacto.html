@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="icon" type="image/png" href="../Assets/img/favicon.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+
+    <header>
+        <nav class="menu">
+             <ul>
+                <li><a href="../index.html"style="text-decoration:none">Inicio</a></li> 
+                <li><a href="./tortas.html"style="text-decoration:none">Tortas</a></li>
+                <li><a href="./cupcakes.html"style="text-decoration:none">Cupcakes</a></li>
+                <li><a href="./galles.html"style="text-decoration:none">Galles</a></li>
+                <li><a href="./contacto.html"style="text-decoration:none">Contacto</a></li>
+            </ul>
+         </nav>
+</header>
+
+
+<main>
+
+<h1 class="animate__animated animate__rubberBand">Dejame tus datos de contacto</h1>
+
+<form action="enviar.php" method="get" enctype="text/plain">
+
+    <fieldset>
+
+    <label for="nombre"></label>
+    <input type="text" id="nombre" name="nombre" style="border-color: aqua;" placeholder="Ingresa tu nombre" required>
+
+    <br>
+
+    <label for="whatsapp"></label>
+    <input type="tel" id="whatsapp" name="whatsapp" style="border-color: aqua;" placeholder="Ingresa tu Whatsapp">
+
+    <br>
+
+    <label for="email"></label>
+    <input type="email" id="email" name="email" style="border-color: aqua;" placeholder="Ingresa tu email">
+
+    <br>
+
+    <label for="redes"></label>
+    <textarea name="redes" id="redes" cols="40" style="border-color: aqua;" rows="5" placeholder="Ingresa tus redes sociales"></textarea>
+
+    <br>
+
+    <label for="comentario"></label>
+    <textarea name="comentario" id="comentario" cols="40" style="border-color: aqua;" rows="8" placeholder="Contame donde escuchaste de mi"></textarea>
+
+    </fieldset>
+
+    <br>
+
+    <input type="submit" value="enviar" style="width: 70px; border-color: aqua;">
+    <input type="reset" value="Borrar todo" style="border-color: aqua;">
+
+</main>
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+<hr>
+<footer>
+    <div class="footer">
+        <p>Seguime en mis redes:</p> <p><a href="https://www.facebook.com/delicadezasdulces.myv" target="_blank">Facebook</a></p> <p><a href="https://www.instagram.com/delicadezasdulcesmyv/" target="_blank">Instagram</a></p> <p><a href="https://wa.me/5493489628971" target="_blank">Whatsapp</a></p>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
